@@ -15,3 +15,4 @@ async def get_live_report(location: Location):
         data = resp.json()
 
         return data
+

@@ -22,3 +22,6 @@ async def do_i_need_an_umbrella(location: Location = fastapi.Depends()):
     bring = category.lower().strip() in {'rain', 'mist'}
 
     return UmbrellaStatus(bring_umbrella=bring, temp=temp, weather=category)
+
+def test():
+    pass
